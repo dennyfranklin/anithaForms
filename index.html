@@ -1,0 +1,214 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+<script
+src='//eu.fw-cdn.com/12982367/935682.js'
+chat='false'>
+</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Beauty Glow</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #fff0f5;
+    color: #333;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    color: white;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+/* PRODUCTS */
+.products {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.products h2 {
+    margin-bottom: 30px;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    width: 250px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card h3 {
+    margin: 10px 0;
+}
+
+.card p {
+    font-size: 14px;
+    color: #777;
+}
+
+.card button {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    background: #ff6f91;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background: #ff4e78;
+}
+
+/* SUBSCRIBE */
+.subscribe {
+    text-align: center;
+    padding: 50px 20px;
+    background: #ffe4e1;
+}
+
+.subscribe h2 {
+    margin-bottom: 10px;
+}
+
+.subscribe input {
+    padding: 12px;
+    width: 250px;
+    border: none;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+.subscribe button {
+    padding: 12px 20px;
+    border: none;
+    background: #ff6f91;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.subscribe button:hover {
+    background: #ff4e78;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #333;
+    color: white;
+    font-size: 14px;
+}
+
+@media(max-width: 600px){
+    .product-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .subscribe input {
+        width: 80%;
+        margin-bottom: 10px;
+    }
+
+    .subscribe button {
+        margin-left: 0;
+    }
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- HERO -->
+<section class="hero">
+    <h1>Glow Naturally ✨</h1>
+    <p>Discover premium beauty products for your skin</p>
+</section>
+
+<!-- PRODUCTS -->
+<section class="products">
+    <h2>Our Best Sellers</h2>
+
+    <div class="product-grid">
+        <div class="card">
+            <img src="https://via.placeholder.com/250" alt="">
+            <h3>Face Serum</h3>
+            <p>Hydrating and brightening serum</p>
+            <button onclick="location.href='product.html'">Buy Now</button>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/250" alt="">
+            <h3>Lip Balm</h3>
+            <p>Soft and smooth lips everyday</p>
+            <button onclick="location.href='product.html'">Buy Now</button>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/250" alt="">
+            <h3>Moisturizer</h3>
+            <p>Deep nourishment for your skin</p>
+            <button onclick="location.href='product.html'">Buy Now</button>
+        </div>
+    </div>
+</section>
+
+<!-- SUBSCRIBE -->
+<section class="subscribe">
+    <h2>Subscribe for Beauty Tips 💌</h2>
+    <p>Get updates and exclusive offers</p>
+
+    <form>
+        <input type="email" placeholder="Enter your email" required>
+        <button>Subscribe</button>
+    </form>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    © 2026 Beauty Glow | All Rights Reserved
+</footer>
+
+</body>
+</html>
